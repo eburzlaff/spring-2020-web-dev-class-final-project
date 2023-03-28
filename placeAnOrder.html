@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--
+    Author: Eduardo Burzlaff
+    Date: 05/dd/2020
+-->
+<html lang="en">
+
+<head>
+    <title>Place an order</title>
+    <meta charset="UTF-8"  />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleSheets/main.css">
+    <link rel="stylesheet" href="styleSheets/placeAnOrder.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Place an order</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contactUs.html">Contact Us</a></li>
+                    <li><a href="placeAnOrder.html">Place an order</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="orderHeader">
+            <h2>We currently have a limited set of options we deliver!</h2>
+            <h3>Place TO GO order below!</h3>
+        </div>
+
+        <form id="orderForm" name="orderForm" action="http://itins3.madisoncollege.edu/echo.php" method="post">
+
+            <label for="fName">First Name</label><br/>
+            <input id="fName" type="text" name="fName" placeholder="first name" required><br/>
+
+            <label for="lName">Last Name</label><br/>
+            <input id="lName" type="text" name="lName" placeholder="last name" required><br/><br/>
+
+            <fieldset>
+                <legend>What would you like to <strong>eat</strong> from below?</legend>
+
+                <input type="radio" id="chocolateCookies" name="foodOption" value="chocolateCookies" checked>
+                <label for="chocolateCookies">Chocolate Cookies</label><br/>
+
+                <input type="radio" id="orangeCake" name="foodOption" value="orangeCake">
+                <label for="orangeCake">Orange Cake</label><br/>
+
+                <input type="radio" id="coxinha" name="foodOption" value="coxinha">
+                <label for="coxinha">Coxinha</label><br/>
+
+                <input type="radio" id="paoDeQueijo" name="foodOption" value="paoDeQueijo">
+                <label for="paoDeQueijo">Pão de Queijo(Cheese Bread)</label><br/>
+
+                <input type="radio" id="cheeseBurguer" name="foodOption" value="cheeseBurguer">
+                <label for="cheeseBurguer">Cheese Burguer</label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>What would you like to <strong>drink</strong> from below?</legend>
+
+                <input type="radio" id="cocaCola" name="drink" value="cocaCola" checked>
+                <label for="cocaCola">Coca Cola</label>
+
+                <input type="radio" id="orangeJuice" name="drink" value="orangeJuice">
+                <label for="orangeJuice">Orange Juice</label>
+
+                <input type="radio" id="grapeJuice" name="drink" value="grapeJuice">
+                <label for="grapeJuice">Grape Juice</label>
+
+                <input type="radio" id="sprite" name="drink" value="sprite">
+                <label for="sprite">Sprite</label>
+            </fieldset>
+
+
+            <br>
+
+            <fieldset>
+                <legend>Would you like sauce?</legend>
+
+                <input type="checkbox" id="ketchup" name="ketchup" value="ketchup">
+                <label for="ketchup">Ketchup</label>
+
+                <input type="checkbox" id="creamCheese" name="creamCheese" value="creamCheese">
+                <label for="creamCheese">Cream Cheese</label>
+
+                <input type="checkbox" id="mustard" name="mustard" value="mustard">
+                <label for="mustard">Mustard</label>
+
+            </fieldset>
+
+            <br>
+
+            <select id="payment" name="payment">
+                <option value="none">--Select a Form of Payment--</option>
+                <option value="creditCard">Credit Card</option>
+                <option value="debitCard">Debit Card</option>
+                <option value="cash">Cash</option>
+                <option value="giftCard">Gift Card</option>
+            </select>
+
+            <br><br>
+
+            <div class="buttons">
+                <input type="submit" name="submit" value="Send">
+                <input type="reset" name="reset" value="Clear">
+            </div>
+        </form>
+
+
+
+    </main>
+
+    <footer>
+        <p>Would you like to take a look at our <a href="menu.html">menu?</a> Or have a Question? Click <a href="contactUs.html">here</a> to ask</p>
+        <address>
+            Developed by <a href="mailto:eburzlaff@madisoncollege.edu">eburzlaff@madisoncollege.edu</a>
+        </address>
+    </footer>
+
+</body>
+
+</html>

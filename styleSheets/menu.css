@@ -1,0 +1,57 @@
+/*
+    Author: Eduardo Burzlaff
+    Date: 05/dd/2020
+*/
+section[class="menuHeader"] {
+    border: 2px solid black;
+    margin: auto;
+    width: 50%;;
+    margin-top: 10px;
+    text-align: center;
+    background-color: White;
+}
+section[class="menu"] {
+    border: 3px solid black;
+    background-color: #4d2609;
+    margin: 10px auto;
+    height: auto;
+    width: 90%;
+}
+section[class="menu"] h2 {
+    color:white;
+    text-align: center;
+    border: 2px solid black;
+    display: inline;
+    background-color: black;
+    color: white;
+
+}
+.menuHeading {text-align: center;}
+table {
+    width: 70%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+
+}
+td {
+    border: 4px solid brown;
+    padding: .5em;
+    background-color: #d9ae89;
+}
+th {
+    font-size: 25px;
+    color: White;
+    text-align: left;
+}
+.description {
+    font-style: italic;
+}
+footer {
+    border-bottom: 2px solid brown;
+}
+img {
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+}

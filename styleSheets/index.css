@@ -1,0 +1,17 @@
+/*
+    Author: Eduardo Burzlaff
+    Date: 05/dd/2020
+*/
+section {
+    margin-top: 10px;
+    text-align: center;
+    border: 2px solid brown;
+    background-color: white;
+    margin: 50px;
+}
+img {
+    float:left;
+    margin: 0px 10px 10px 10px;
+    border: 2px solid black;
+    max-width: 100%;
+}
